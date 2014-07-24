@@ -1,5 +1,5 @@
 ##MySql
-
+```
 CREATE DATABASE tutorialsdb;
 
 DROP DATABASE IF EXISTS tutorialsdb;
@@ -23,10 +23,10 @@ INSERT INTO `tutorialsdb`.`users` (`username`, `password`) VALUES ('prasadkharka
 INSERT INTO `tutorialsdb`.`roles` (`rolename`) VALUES ('user');
 INSERT INTO `tutorialsdb`.`users_roles` (`username`, `rolename`) VALUES ('prasadkharkar', 'user');
 COMMIT;
-
+```
 
 ##server.xml
-
+```
 <Realm  className="org.apache.catalina.realm.JDBCRealm"
  driverName="com.mysql.jdbc.Driver"
  connectionURL="jdbc:mysql://localhost:3306/tutorialsdb"
@@ -37,3 +37,4 @@ COMMIT;
  userCredCol="password"
  userRoleTable="users_roles"
  roleNameCol="rolename" />
+ ```
