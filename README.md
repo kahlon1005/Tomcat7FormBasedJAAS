@@ -33,7 +33,7 @@ COMMIT;
 ##server.xml
 Configure tomcat 7 server.xml for JDBCRealm
 
-Add a realm tag in tomcat_home/conf/server.xml file. Place mysql-connector-java.jar in tomcat_home/lib
+Add a realm tag in 'tomcat_home/conf/server.xml file. Place mysql-connector-java.jar' in 'tomcat_home/lib'
 ```
 <Realm  className="org.apache.catalina.realm.JDBCRealm"
  driverName="com.mysql.jdbc.Driver"
