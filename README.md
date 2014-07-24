@@ -25,9 +25,9 @@ PRIMARY KEY (username, rolename),
 CONSTRAINT users_roles_fk1 FOREIGN KEY (username) REFERENCES users (username),
 CONSTRAINT users_roles_fk2 FOREIGN KEY (rolename) REFERENCES roles (rolename)
 );
-INSERT INTO `tutorialsdb`.`users` (`username`, `password`) VALUES ('prasadkharkar', 'password');
+INSERT INTO `tutorialsdb`.`users` (`username`, `password`) VALUES ('admin', 'admin');
 INSERT INTO `tutorialsdb`.`roles` (`rolename`) VALUES ('user');
-INSERT INTO `tutorialsdb`.`users_roles` (`username`, `rolename`) VALUES ('prasadkharkar', 'user');
+INSERT INTO `tutorialsdb`.`users_roles` (`username`, `rolename`) VALUES ('admin', 'user');
 COMMIT;
 ```
 
@@ -54,3 +54,4 @@ Start tomcat 7 server and hit
 ```
 http://localhost:8080/Tomcat7FormBasedJAAS/protected/protected.jsp
 ```
+and login with ```admin/admin```
