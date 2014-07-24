@@ -1,4 +1,8 @@
-##MySql
+#MySql
+
+Prepare database 
+Copy paste the following sql script and run from mysql command prompt
+
 ```
 CREATE DATABASE tutorialsdb;
 
@@ -25,7 +29,8 @@ INSERT INTO `tutorialsdb`.`users_roles` (`username`, `rolename`) VALUES ('prasad
 COMMIT;
 ```
 
-##server.xml
+
+#server.xml
 ```
 <Realm  className="org.apache.catalina.realm.JDBCRealm"
  driverName="com.mysql.jdbc.Driver"
