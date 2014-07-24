@@ -1,6 +1,6 @@
-###configure JDBCRealm JAAS for mysql and tomcat 7 with form based authentication
+#Configure JDBCRealm JAAS for mysql and tomcat 7 with form based authentication
 
-#MySql
+###MySql
 
 Prepare database 
 Copy paste the following sql script and run from mysql command prompt
