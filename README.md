@@ -52,5 +52,5 @@ Add a realm tag in ```tomcat_home/conf/server.xml file. Place mysql-connector-ja
 
 Start tomcat 7 server and hit
 ```
-<a href="http://localhost:8080/Tomcat7FormBasedJAAS/protected/protected.jsp"</a>
+http://localhost:8080/Tomcat7FormBasedJAAS/protected/protected.jsp
 ```
