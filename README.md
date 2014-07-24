@@ -48,3 +48,7 @@ Add a realm tag in ```tomcat_home/conf/server.xml file. Place mysql-connector-ja
  userRoleTable="users_roles"
  roleNameCol="rolename" />
  ```
+#####Run and test the application
+
+Start tomcat 7 server and hit
+http://localhost:8080/Tomcat7FormBasedJAAS/protected/protected.jsp
