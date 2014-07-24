@@ -1,6 +1,6 @@
 #Configure JDBCRealm JAAS for mysql and tomcat 7 with form based authentication
 
-###MySql
+####MySql
 
 Prepare database 
 Copy paste the following sql script and run from mysql command prompt
@@ -32,7 +32,7 @@ COMMIT;
 ```
 
 
-##server.xml
+####server.xml
 Configure tomcat 7 server.xml for JDBCRealm
 
 Add a realm tag in ```tomcat_home/conf/server.xml file. Place mysql-connector-java.jar``` in ```tomcat_home/lib```
